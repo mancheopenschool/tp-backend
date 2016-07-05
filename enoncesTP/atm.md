@@ -2,13 +2,13 @@
 
 L'objectif de ce TP est de créer un distributeur de billets en PHP, directement dans la console.
 
-L'utilisateur devra: 
+L'utilisateur devra:
 
 - Entrer son code (Maximum 3 essais)
 - Demander un montant (multiple de 10 uniquement, inférieur au plafond et au solde)
 - Choisir s'il souhaite un ticket ou non
 
-Le distributeur afficher ensuite la distribution des billets (ex: 10€, 20€, 30€ ...) et donnera un ticket si nécessaire avant de remercier l'utilisateur.
+Le distributeur affichera ensuite la distribution des billets (ex: 10€, 20€, 30€ ...) et donnera un ticket si nécessaire avant de remercier l'utilisateur.
 
 
 ```javascript
