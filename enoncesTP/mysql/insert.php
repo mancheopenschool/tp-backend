@@ -16,6 +16,6 @@ print("$count ligne inserée.\n");
 $prenom = "Jean-Louis";
 $nom = "Marcel";
 
-$sth = $dbh->prepare("INSERT INTO utilisateur VALUES ('', ?, ?)");
+$sth = $pdo->prepare("INSERT INTO utilisateur VALUES ('', ?, ?)");
 $sth->execute(array($nom, $prenom));
 ?>
