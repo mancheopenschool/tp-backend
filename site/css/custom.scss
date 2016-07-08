@@ -1,0 +1,28 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.public_profile {
+	p {
+		display: inline-block;
+		vertical-align: middle;
+		width: 70%;
+		&.avatar {
+			width: 29%;
+			img {
+				border: 1px solid;
+				-webkit-border-radius: 50%;
+				 border-radius: 50%;
+				 width: 100px;
+			}
+		}
+	}
+
+
+}
